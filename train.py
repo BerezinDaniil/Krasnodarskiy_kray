@@ -129,7 +129,7 @@ optimizer = torch.optim.SGD(params, lr=0.005,
 lr_scheduler = torch.optim.lr_scheduler.StepLR(optimizer,
                                                step_size=3,
                                                gamma=0.1)
-num_epochs = 3
+num_epochs = 10
 for epoch in range(num_epochs):
     print(epoch)
     # train for one epoch
