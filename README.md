@@ -7,4 +7,4 @@
 
 train_1.rar - содержат данные о размеченном train, преобразовываются в data.csv в файле test.py
 
-Датасет лежит по ссылке: (train-фото из train,test - фото из test)
+Датасет лежит по ссылке: (train.rar-фото из train,test.rar - фото из test)
