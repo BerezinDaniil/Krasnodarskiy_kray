@@ -101,7 +101,7 @@ data_loader_test = torch.utils.data.DataLoader(
     dataset_test, batch_size=1, shuffle=False, num_workers=0,
     collate_fn=utils.collate_fn)
 loaded_model = get_model(num_classes=71)
-loaded_model.load_state_dict(torch.load("pytorch object detection/model_3"))
+loaded_model.load_state_dict(torch.load("pytorch object detection/model_10"))
 
 ANS = []
 
